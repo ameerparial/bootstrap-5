@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/colors.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/colors.css">
+    <title>Column</title>
+</head>
+<body>
+    <h1>Column with auto width</h1>
+    <div class="container">
+        <h3>Row with 1 Col</h3>
+        <div class="row">
+            <div class="col orange">Col 1</div>
+        </div>
+
+        <h3>Row with 2 Col</h3>
+        <div class="row">
+            <div class="col orange">Col 1</div>
+            <div class="col blue">Col 2</div>
+        </div>
+
+        <h3>Row with 3 Col</h3>
+        <div class="row">
+            <div class="col orange">Col 1</div>
+            <div class="col blue">Col 2</div>
+            <div class="col pink">Col 3</div>
+        </div>
+        
+        <h3>Row with 4 Col</h3>
+        <div class="row">
+            <div class="col orange">Col 1</div>
+            <div class="col blue">Col 2</div>
+            <div class="col pink">Col 3</div>
+            <div class="col green">Col 4</div>
+        </div>
+
+    </div>
+
+    <h1>Col with grid System (12)</h1>
+    <span>A single row contains exact 12 cols</span>
+    <div class="container">
+        <div class="row">
+            <!-- Takes the space of first three cols -->
+            <div class="col-3 orange">Col 1</div>
+            <!-- Takes the space of next 4 cols -->
+            <div class="col-4 blue">Col 2</div>
+            <!-- Takes last five cols -->
+            <div class="col-5 pink">Col 3</div>
+        </div>
+    </div>
+
+    <h1>Cols on different Screen sizes</h1>
+    <div class="container">
+        <div class="row">
+            <!-- Takes the space of first three cols only on MD or greater size -->
+            <div class="col-md-3 orange">Col 1</div>
+            <!-- Takes the space of next six cols only on MD or greater size -->
+            <div class="col-md-6 blue">Col 2</div>
+            <!-- Takes last three cols only on MD or greater size-->
+            <div class="col-md-3 pink">Col 3</div>
+        </div>
+    </div>
+    
+
+
+    
+</body>
+</html>
