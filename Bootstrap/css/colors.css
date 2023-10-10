@@ -3,6 +3,11 @@
     border: 1px black solid;
     color: white;
 }
+.blue li a{
+    color: white;
+    text-decoration: none;
+
+}
 
 .green{
     background-color: green;
@@ -26,4 +31,13 @@
     background-color: pink;
     border: 1px black solid;
     color: white;
+}
+
+#nav{
+    display: flex;
+    justify-content: start;
+}
+#nav li{
+    display: inline-block; 
+    margin: 5px;
 }
