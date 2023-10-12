@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/colors.css">
+    <title>Justify Content</title>
+</head>
+<body>
+    <h1>Center</h1>
+    <div class="container  pink">
+        <!-- By default flex property is with row class in BS-5 -->
+        <!-- Making the col to the center horizontally -->
+        <div class="row justify-content-center">
+            <div class="col-2 blue">Justify-content-center</div>
+            <div class="col-4 green">Justify-content-center</div>
+        </div>
+    </div>
+
+    <h1>Space around</h1>
+    <div class="container pink">
+        <div class="row justify-content-around">
+            <div class="col-2 blue">Col 1</div>
+            <div class="col-2 green">Col 2</div>
+            <div class="col-2 orange">Col 3</div>
+        </div>
+    </div>
+
+    <h1>Space between</h1>
+    <div class="container pink">
+        <div class="row justify-content-between">
+            <div class="col-2 blue">Col 1</div>
+            <div class="col-2 green">Col 2</div>
+            <div class="col-2 orange">Col 3</div>
+        </div>
+    </div>
+
+    <h1>End</h1>
+    <div class="container pink">
+        <div class="row justify-content-end">
+            <div class="col-2 blue">Col 1</div>
+            <div class="col-2 green">Col 2</div>
+            <div class="col-2 orange">Col 3</div>
+        </div>
+    </div>
+
+    <h1>Start</h1>
+    <div class="container pink">
+        <div class="row justify-content-start">
+            <div class="col-2 blue">Col 1</div>
+            <div class="col-2 green">Col 2</div>
+            <div class="col-2 orange">Col 3</div>
+        </div>
+    </div>
+
+    <h1>Evenly</h1>
+    <div class="container pink">
+        <div class="row justify-content-evenly">
+            <div class="col-2 blue">Col 1</div>
+            <div class="col-2 green">Col 2</div>
+            <div class="col-2 orange">Col 3</div>
+        </div>
+    </div>
+
+    <h1>With break points</h1>
+    <div class="container pink">
+        <div class="row justify-content-md-around justify-content-center">
+            <div class="col-2 blue">Col 1</div>
+            <div class="col-2 green">Col 2</div>
+            <div class="col-2 orange">Col 3</div>
+        </div>
+    </div>
+</body>
+</html>
