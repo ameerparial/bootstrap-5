@@ -1,0 +1,128 @@
+#header{
+    background-color: #e74c3c;
+    color: white;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 40px;
+}
+
+.section-head::after {
+    background-color: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+
+}
+
+#menu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+}
+#menu li a:hover{
+    background-color: #c0392b;
+}
+#banner{
+    background-image: url("https://images.unsplash.com/photo-1473973916745-60839aebf06b?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmFzZSUyMHdpdGglMjBmbG93ZXJ8ZW58MHx8MHx8fDA%3D&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner-title{
+    padding-top: 5rem;
+}
+#heading{
+    padding: 10px;
+    margin: 0px;
+    background-color: white;
+    color: black;
+    opacity: 80%;
+    display: inline-block;
+}
+#ban-para{
+    background-color: #e74c3c;
+    color: white;
+    opacity: 70%;
+}
+.section-head{
+    text-align: center;
+}
+.service-box{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.service-box i{
+    font-size: 50px;
+    color: #e74c3c;
+    padding-bottom: 10px;
+}
+#testinomail{
+    background-image: url('https://plus.unsplash.com/premium_photo-1686314012109-90e64a1fbba4?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.person{
+    color: white;
+}
+.person img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.card-item img{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+.card-item h2, .card-item a, .card-item i.fa-angles-right{
+    color: #e74c3c;
+
+}
+.card-item p{
+    padding: 2px;
+}
+
+#info-section{
+    background-color: rgb(8, 22, 31);
+    color: white;
+    padding-top: 50px;
+}
+.about h2::after{
+    border-bottom: white 2px solid;
+    content: "";
+    width: 100px;
+    height: 2px;
+    display: block;
+
+}
+#news-items{
+    list-style: none;
+    padding: 0px;
+}
+#news-items li a{
+    color: white;
+}
+#news-items li a:hover{
+    color: #e74c3c;
+}
+
+#news-items li {
+    margin-bottom: 20px;
+}
